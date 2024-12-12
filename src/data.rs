@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung 55\" 4K UHD Smart TV".to_string(),
+            price: 499.99,
+            description: "Experience stunning picture quality with the Samsung 55\" 4K UHD Smart TV. Equipped with smart features and a sleek design, it's perfect for movie nights or gaming.".to_string(),
+            image: "/samsung_tv.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Apple AirPods Pro (2nd Gen)".to_string(),
+            price: 249.99,
+            description: "Enjoy crystal-clear sound and active noise cancellation with the Apple AirPods Pro. The second-generation model offers improved audio quality and a more secure fit.".to_string(),
+            image: "/airpods_pro.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Sony PlayStation 5 Console".to_string(),
+            price: 499.99,
+            description: "Dive into the next generation of gaming with the Sony PlayStation 5 Console. Featuring ultra-fast load times and breathtaking graphics, it's the ultimate gaming experience.".to_string(),
+            image: "/ps5_console.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Microsoft Surface Laptop 5".to_string(),
+            price: 899.99,
+            description: "Power through your tasks with the Microsoft Surface Laptop 5. With a 12th-gen Intel processor and a stunning PixelSense display, this laptop is built for productivity.".to_string(),
+            image: "/surface_laptop.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Samsung Galaxy S23 Ultra".to_string(),
+            price: 1199.99,
+            description: "Capture professional-quality photos and enjoy an ultra-responsive screen with the Samsung Galaxy S23 Ultra. Powered by the latest Snapdragon processor, it's the ultimate smartphone.".to_string(),
+            image: "/galaxy_s23.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Bose QuietComfort 45 Headphones".to_string(),
+            price: 329.99,
+            description: "Immerse yourself in exceptional sound and silence with the Bose QuietComfort 45 Headphones. Featuring noise-cancelling technology and superior comfort for long listening sessions.".to_string(),
+            image: "/bose_headphones.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Dell XPS 13 Laptop".to_string(),
+            price: 999.99,
+            description: "The Dell XPS 13 combines power, portability, and a stunning display in one sleek package. Perfect for both work and play, it’s a laptop built to meet all your needs.".to_string(),
+            image: "/dell_xps.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Logitech MX Master 3S Mouse".to_string(),
+            price: 99.99,
+            description: "The Logitech MX Master 3S is the perfect mouse for productivity and precision. With an ergonomic design and customizable buttons, it's ideal for both work and creative tasks.".to_string(),
+            image: "/logitech_mouse.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Nikon Z6 II Mirrorless Camera".to_string(),
+            price: 1999.99,
+            description: "Capture stunning photos and videos with the Nikon Z6 II Mirrorless Camera. Featuring a 24.5 MP full-frame sensor and advanced autofocus, it’s perfect for both professionals and enthusiasts.".to_string(),
+            image: "/nikon_z6.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Ring Video Doorbell 4".to_string(),
+            price: 199.99,
+            description: "Keep your home secure with the Ring Video Doorbell 4. Featuring HD video, two-way talk, and motion detection, it allows you to monitor your front door from anywhere.".to_string(),
+            image: "/ring_doorbell.jpg".to_string()
         }
     ]
 }
