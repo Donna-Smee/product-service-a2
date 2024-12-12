@@ -8,7 +8,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             name: "Samsung 55\" 4K UHD Smart TV".to_string(),
             price: 499.99,
             description: "Experience stunning picture quality with the Samsung 55\" 4K UHD Smart TV. Equipped with smart features and a sleek design, it's perfect for movie nights or gaming.".to_string(),
-            image: "/static/samsung_tv.png".to_string()
+            image: "/samsung_tv.png".to_string()
         },
         Product {
             id: 2,
